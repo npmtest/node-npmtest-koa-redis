@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [koa-redis (v3.0.0)](https://github.com/koajs/koa-redis)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-redis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-redis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-redis.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-redis)",
+    "description": "#### basic test coverage for  [koa-redis (v3.0.0)](https://github.com/koajs/koa-redis)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-redis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-redis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-redis.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-redis)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "koa-redis": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }

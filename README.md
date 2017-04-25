@@ -1,6 +1,6 @@
 # npmtest-koa-redis
 
-#### test coverage for  [koa-redis (v3.0.0)](https://github.com/koajs/koa-redis)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-redis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-redis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-redis.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-redis)
+#### basic test coverage for  [koa-redis (v3.0.0)](https://github.com/koajs/koa-redis)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-redis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-redis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-redis.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-redis)
 
 #### koa session with redis using koa-generic-session
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-koa-redis/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-koa-redis/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-koa-redis/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-koa-redis/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koa-redis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koa-redis/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-koa-redis/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-koa-redis/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-koa-redis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-koa-redis/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-koa-redis/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-koa-redis/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "test": "istanbul cover node_modules/mocha/bin/_mocha -- --require co-mocha \"test/**/*.test.js\"",
         "test-only": "mocha --require co-mocha \"test/**/*.test.js\""
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
