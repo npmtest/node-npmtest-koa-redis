@@ -10,8 +10,8 @@
 <tspan x="10" y="122">  │   └── es6-promise@3.3.1 </tspan>
 <tspan x="10" y="138">  ├─┬ co-wrap-all@1.0.0 </tspan>
 <tspan x="10" y="154">  │ └── co@4.6.0 </tspan>
-<tspan x="10" y="170">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="186">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="170">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="186">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="202">  ├─┬ hiredis@0.5.0 </tspan>
 <tspan x="10" y="218">  │ ├── bindings@1.2.1 </tspan>
 <tspan x="10" y="234">  │ └── nan@2.6.2 </tspan>
